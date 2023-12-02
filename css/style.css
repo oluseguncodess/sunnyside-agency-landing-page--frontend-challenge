@@ -7,7 +7,7 @@
 @import url(./sections/services.css);
 @import url(./sections/testimonials.css);
 @import url(./sections/article.css);
-
+@import url(./sections/footer.css);
 :root {
 
     /* colors */
@@ -20,6 +20,7 @@
     --darker-greyish-blue: hsl(213, 9%, 39%);
     --blue: hsl(201, 96%, 65%);
     --dark-blue: hsl(198, 62%, 26%);
+    --footer-bg: hsl(167, 44%, 70%);
 
     /* font-family  */
     --barlow: 'Barlow', sans-serif;
@@ -33,6 +34,7 @@
     --fw-500: 500;
     --fw-600: 600;
     --fw-700: 700;
+    --fw-800: 800;
     --fw-900: 900;
 }
 
