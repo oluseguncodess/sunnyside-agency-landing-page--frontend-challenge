@@ -1,0 +1,38 @@
+.testimonials {
+    margin: 65px 0;
+}
+
+.testimonials h2 {
+    margin-bottom: 50px;
+    color: var(--grayish-blue);
+    font-family: var(--frauces);
+    font-weight: var(--fw-600);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.testimonials .client-testimonials img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.testimonials .client-testimonials p {
+    text-align: center;
+    width: 90%;
+    font-family: var(--barlow);
+    font-weight: var(--fw-500);
+    font-size: 1.11rem;
+    color: var(--darker-greyish-blue);
+    opacity: 0.95;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonials .client-testimonials .client-testimonials__role {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    opacity: 0.5;
+}

@@ -1,0 +1,69 @@
+/* imported foonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+/* other css file imports */
+@import url(./sections/header.css);
+@import url(./sections/about-us.css);
+@import url(./sections/services.css);
+@import url(./sections/testimonials.css);
+@import url(./sections/article.css);
+
+:root {
+
+    /* colors */
+    --primary-color: hsl(212, 27%, 19%);
+    --white: hsl(0, 0%, 100%);
+    --dark-cyan: hsl(167, 40%, 24%);
+    --moderate-cyan: hsl(168, 34%, 41%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --dark-greyish-blue: hsl(232, 10%, 55%);
+    --darker-greyish-blue: hsl(213, 9%, 39%);
+    --blue: hsl(201, 96%, 65%);
+    --dark-blue: hsl(198, 62%, 26%);
+
+    /* font-family  */
+    --barlow: 'Barlow', sans-serif;
+    --frauces: 'Fraunces', serif;
+
+    /* font-size */
+    
+
+    /* font-weights */
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-900: 900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-size: 1.125rem;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  /* utility classes */
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-end {
+    justify-content: flex-end;
+    align-items: center;
+  }
+
