@@ -23,7 +23,7 @@
     --footer-bg: hsl(167, 44%, 70%);
     --yellow: hsl(51, 100%, 49%);
     --bg-color-menu: hsl(26, 100%, 99%);
-    --glass-color: rgba(255, 255, 255, 0.19);
+    --glass-color: rgba(255, 255, 255, 0.25);
 
     /* font-family  */
     --barlow: 'Barlow', sans-serif;
@@ -140,7 +140,7 @@
     width: 150px;
     padding: 15px;
     background-color: var(--white);
-    height: 100px;
+    height: 60px;
   }
 
   .header__menu :nth-child(4) button:hover { 
