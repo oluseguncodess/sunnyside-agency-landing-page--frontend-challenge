@@ -1,10 +1,13 @@
 .about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+    align-items: center;
     width: 100%;
-    height: calc(100vh - 296px);
+    height: calc(100vh - 96px);
     background: url(/images/desktop/image-header.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
 .about-us__heading {
@@ -17,3 +20,4 @@
     letter-spacing: 8px;
     text-transform: uppercase;
 }
+

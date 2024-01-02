@@ -1,9 +1,9 @@
 .testimonials {
-    margin: 65px 0;
+    background-color: var(--bg-color-menu);
 }
 
 .testimonials h2 {
-    margin-bottom: 50px;
+    margin: 50px 0;
     color: var(--grayish-blue);
     font-family: var(--frauces);
     font-weight: var(--fw-600);

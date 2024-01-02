@@ -28,6 +28,10 @@
     font-weight: var(--fw-500);
 }
 
+.footer__nav > a:hover {
+    color: var(--white);
+}
+
 .footer__social-links {
     display: flex;
     gap: 30px;

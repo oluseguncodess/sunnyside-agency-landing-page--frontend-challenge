@@ -23,6 +23,7 @@
     --footer-bg: hsl(167, 44%, 70%);
     --yellow: hsl(51, 100%, 49%);
     --bg-color-menu: hsl(26, 100%, 99%);
+    --glass-color: rgba(255, 255, 255, 0.19);
 
     /* font-family  */
     --barlow: 'Barlow', sans-serif;
@@ -74,7 +75,7 @@
 /* media queries*/
 
 /* for tablets */
-@media (min-width: 550px) and (max-width:700px) {
+@media (min-width: 550px) and (max-width:800px) {
   .header__menu-mobile {
     display: none;
   }
@@ -110,7 +111,11 @@
 
 /* for some tablets and laptops */
 
-@media (min-width: 701px) {
+@media (min-width: 801px) {
+  .header__logo {
+  font-size: 2.4rem;
+}
+
   .header__menu-mobile {
     display: none;
   }
@@ -127,7 +132,7 @@
 
     flex-direction: row;
     min-height: 0;
-    gap: 30px
+    gap: 50px
   }
 
   .header__menu :nth-child(4) button { 
@@ -135,12 +140,62 @@
     width: 150px;
     padding: 15px;
     background-color: var(--white);
+    height: 100px;
+  }
+
+  .header__menu :nth-child(4) button:hover { 
+    background-color: var(--glass-color);
+    color: var(--white);
   }
 
   .header__menu a {
     color: var(--white);
     font-weight: var(--fw-400);
     font-size: 1.1rem;
+  }
+
+  .about-us__heading { 
+    font-size: 3.4rem;
+    letter-spacing: 10px;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .services__images img {
+    object-fit: cover;
+    height: 600px;
+  }
+
+  .services__description {
+    height: 600px;
+  }
+
+  .services div:nth-child(1) {
+    order: 0;
+  }
+
+  .testimonials {
+    height: 700px;
+  }
+
+  .testimonials h2 { 
+    margin-bottom: 90px;
+    font-size: 1.25rem;
+    letter-spacing: 5px;
+  }
+
+  .client-testimonials-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 75%;
+  }
+
+  .article {
+    display: flex;
   }
 }
   
