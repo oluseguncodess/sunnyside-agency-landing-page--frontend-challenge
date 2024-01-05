@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-Doing this project really helped me hone my css skills especially. I was able to figure out how to ensure the images fit in and also master responsiveness, using just html and vanilla css and Javascript. 
+Doing this project really helped me hone my css skills especially. I was able to figure out how to ensure the images fit in and also master responsiveness, using just html and vanilla css and Javascript. Of course, css grid and flexbox helped making this process easier.
 
 ## Author
 
