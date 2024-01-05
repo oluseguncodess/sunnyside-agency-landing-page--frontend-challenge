@@ -39,6 +39,11 @@
 
 }
 
+.footer__social-links img:hover { 
+    width: 50px;
+    cursor: pointer;
+}
+
 .footer .attribution {
     text-align: center;
     font-family: var(--barlow);
